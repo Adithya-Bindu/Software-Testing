@@ -1,0 +1,109 @@
+                                                            SOFTWARE TESTING
+                                                        ------------------------
+
+INTRODUCTION TO SOFTWARE TESTING
+--------------------------------
+Software Testing is a process of verifying and validating whether the Software Product or Application is working as expected or not. The
+complete testing includes identifying errors and bugs that cause future problems for the performance of an application.
+
+Software Testing Can be Divided into Two Steps:
+
+1. Verification: This step involves checking if the software is doing what is supposed to do. Its like asking, "Are we building the 
+   product the right way?"
+2. Validation: This step verifies that the software meets the customer's needs and requirements. It's like asking, "Are we building the
+   right product?"
+
+
+What is Manual Testing?
+Manual testing is a type of testing in which we do not use any tools or automation to perform the testing. In this testing, testers make
+test cases for the codes test the software, and give the final report about that software. Manual testing is time-consuming testing 
+because humans do it and there is a chance of human errors.
+
+* Manual testing is conducted to discover bugs in the developed software application.
+* The tester checks all the essential features of the application.
+* The tester executes test cases and generates test reports without any help from the automation tools.
+* It is conducted by the experienced tester to accomplish the testing process.
+
+When to Perform Manual Testing?
+Manual testing is done when automation can't be used or isn't enough. Here are key reasons and scenarios:
+
+* Exploratory Testing: Discovering issues in new or unclear features by exploring them.
+* Usability Testing: Checking if the UI is easy to use and looks good.
+* Ad-Hoc Testing: Doing quick, informal tests after updates or bug fixes.
+* Visual/GUI Testing: Checking the layout, colors, or how the site looks across different browsers.
+
+Manual testing should be conducted when:
+
+* Flexibility is required: With manual tests, QA can quickly test and provide fast feedback.
+* Short-term projects: It is not advisable to invest more money and effort to set up short-term projects that focus on minor features
+  because such setup will require huge effort and money that would be too high for such small projects.
+* When testing end-user usability: Humans can use their sensibilities to understand the application behavior if the application offers a 
+  satisfactory user journey. No machine can perform this task as humans can.
+
+Benefits of Manual Testing -
+Here are the Benefits of Manual Testing:
+
+* Easy hiring: In manual testing, anyone can test so it helps in easy hiring.
+* Fast feedback: Manual testing helps to provide fast and accurate feedback.
+* Versatile: Manual test cases can be applied to many test cases.
+* Flexible: Manual testing is flexible as it can adapt easily to changes in the user interface.
+* Less expensive: Manual testing is less expensive as one does not need to spend a budget on automation tools and processes.
+
+Limitations of Manual Testing - 
+Here are the Limitations of Manual Testing:
+
+* Not all defects detected: In manual cases, there is no assurance that there will be 100% test coverage as a result some of the defects
+  may not be detected.
+* High expertise: Although manual testing can be done by anyone, in some complex cases high expertise is required.
+* Lots of time: Manual testing times extensive activity. It requires a lot of time to manually develop test cases so that all the 
+  functionalities are covered and tested.
+* Cannot be recorded: Manual testing process cannot be recorded so it is not possible to reuse the manual test cases.
+* Less reliable: Manual testing is less reliable as it is conducted by humans and all test cases are designed by humans so there are 
+  chances for human error.
+
+
+What is Automation Testing?
+Automation testing is a type of testing in which we take the help of tools (automation) to perform the testing. It is faster than manual 
+testing because it is done with some automation tools. There is no chance of any human errors.
+
+* It relies entirely on pre-scripted test which runs automatically to compare actual results with expected results.
+* Automation testing helps the tester determine whether the application performs as expected or not.
+* It allows the execution of repetitive tasks and regression tests.
+* Automation requires manual effort to create initial testing scripts.
+
+When to Perform Automation Testing?
+* When need to run repetitive tasks: Automated tests are the best option in scenarios where there is a requirement to run repetitive tests.
+  For example, in the case of regression tests must be executed periodically to make sure that the newly added code does not disrupt the 
+  existing functionality of the software.
+* When human resources are scarce: Automated tests are viable and the best option to get tests executed within deadlines when there are 
+  only a limited number of dedicated testers.
+
+Benefits of Automation Testing -
+Here are Benefits of Automation Testing:
+
+* Finds more bugs: Automation testing helps to find more bugs and defects in the software.
+* Reduce time for regression tests: Automated tests are suitable for regression tests as the tests can be executed in a repetitive manner 
+  periodically.
+* The process can be recorded: This is one of the benefits of using automation tests as these tests can be recorded and thus allows to 
+  reuse of the tests.
+* No fatigue: As automation, tests are executed using software tools so there is no fatigue or tiring factor as in manual testing.
+* Increased test coverage: Automation tests help to increase the test coverage as using the tool for testing helps to make sure that not
+  even the smallest unit is left for testing.
+
+Limitations of Automation Testing - 
+Here are Limitations of Automation Testing:
+
+* Difficult to inspect visual elements: In automated tests, it is difficult to get insight into the visual elements like color, font size,
+  font type, button sizes, etc. as there is no human intervention.
+* High cost: Automation tests have a high cost of implementation as tools are required for testing, thus adding the cost to the project 
+  budget.
+* Test maintenance is costly: In automation tests, test maintenance is costly.
+* Not false proof: Automation tests also have some limitations and mistakes in automated tests can lead to errors and omissions.
+* Trained employees required: For conducting automated tests, trained employees with knowledge of programming languages and testing 
+  knowledge are required.
+
+
+Conclusion:
+In conclusion, both manual testing and automated testing play crucial roles in ensuring software quality. While manual testing excels in
+exploratory testing and usability testing, automated testing shines in regression, performance, and load testing. The choice between them
+depends on factors such as project requirements, timeline, budget, and the nature of the application being tested.
