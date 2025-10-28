@@ -107,3 +107,127 @@ Conclusion:
 In conclusion, both manual testing and automated testing play crucial roles in ensuring software quality. While manual testing excels in
 exploratory testing and usability testing, automated testing shines in regression, performance, and load testing. The choice between them
 depends on factors such as project requirements, timeline, budget, and the nature of the application being tested.
+
+
+PRINCIPLES OF SOFTWARE TESTING
+------------------------------
+Software testing is an important aspect of software development, ensuring that applications function correctly and meet user expectations.
+From test planning to execution, analysis and understanding these principles help testers in creating a more structured and focused
+approach to software testing, resulting in a higher-quality product.
+
+Here are the Seven Principles of Software Testing:
+
+1. Testing shows the Presence of Defects - 
+The goal of software testing is to make the software fail. Software testing reduces the presence of defects. Software testing talks about
+the presence of defects and doesn't talk about the absence of defects. Software testing can ensure that defects are present but it can
+not prove that software is defect-free. Even multiple tests can never ensure that software is 100% bug-free. Testing can reduce the number
+of defects but not remove all defects.
+
+2. Exhaustive Testing is not Possible - 
+It is the process of testing the functionality of the software in all possible inputs (valid or invalid) and pre-conditions is known as
+exhaustive testing. Exhaustive testing is impossible means the software can never test at every test case. It can test only some test 
+cases and assume that the software is correct and it will produce the correct output in every test case. If the software will test every
+test case then it will take more cost, effort, etc., which is impractical.
+
+3. Early Testing - 
+To find the defect in the software, early test activity shall be started. The defect detected in the early phases of SDLC will be very 
+less expensive. For better performance of software, software testing will start at the initial phase i.e. testing will perform at the 
+requirement analysis phase.
+
+4. Defect Clustering - 
+In a project, a small number of modules can contain most of the defects. The Pareto Principle for software testing states that 80% of 
+software defects come from 20% of modules.
+
+5. Pesticide Paradox - 
+Repeating the same test cases, again and again, will not find new bugs. So it is necessary to review the test cases and add or update
+test cases to find new bugs.
+
+6. Testing is Context-Dependent - 
+The testing approach depends on the context of the software developed. Different types of software need to perform different types of 
+testing. For example, The testing of the e-commerce site is different from the testing of the Android application.
+
+7. Absence of Errors Fallacy - 
+If a built software is 99% bug-free but does not follow the user requirement then it is unusable. It is not only necessary that software 
+is 99% bug-free but it is also mandatory to fulfill all the customer requirements.
+
+Conclusion
+Software testing is essential for ensuring applications meet user expectations and function correctly. Understanding key principles like 
+detecting defects early and recognizing the impossibility of exhaustive testing is vital for delivering reliable software.
+
+Various types of testing, including unit, integration, regression, smoke, and system testing, offer unique benefits like early Bug 
+Detection and Improved Code Quality. By embracing these principles and employing diverse testing methods, developers can enhance product 
+quality and user satisfaction.
+
+GOALS OF SOFTWARE TESTING
+-------------------------
+The main goal of Software Testing is to find bugs as early as possible, fix them, and deliver a fast, user-friendly product that meets 
+both functional and non-functional requirements of the application while minimizing risks and costs.
+
+Types of Goals in Software Testing - 
+
+The goals of software testing may be classified into three major categories, which are as follows:
+
+1. Immediate Goals - 
+Immediate goals focus on the direct outcomes of testing. These objectives may be set at any time during the SDLC process which aims to 
+catch the issues early and prevent the sources.
+
+Some of these are covered in detail below:
+
+1. Bug Discovery: This is the immediate goal of software testing to find errors at any stage of software development. The number of bugs 
+   is discovered in the early stage of testing. The primary purpose of software testing is to detect flaws at any step of the development
+   process. The higher the number of issues detected at an early stage, the higher the software testing success rate.
+2. Bug Prevention: This is the immediate action of bug discovery, that occurs as a result of bug discovery. Everyone in the software 
+   development team learns how to code from the behavior and analysis of issues detected, ensuring that bugs are not duplicated in 
+   subsequent phases or future projects.
+
+2. Long-Term Goals - 
+These objectives have an impact on product quality in the long run after one cycle of the SDLC is completed. Long-term goals focus on 
+improving product quality and user satisfaction over time, ensuring the software remains competitive and reliable after completing one
+SDLC cycle.
+
+Some of these are covered in detail below:
+
+1. Quality: This goal enhances the quality of the software product. Because software is also a product, the user's priority is its quality.
+   Superior quality is ensured by thorough testing. Correctness, integrity, efficiency, and reliability are all aspects that influence 
+   quality. To attain quality, you must achieve all of the above-mentioned quality characteristics.
+2. Customer Satisfaction: This goal verifies the customer's satisfaction with a developed software product. The primary purpose of 
+   software testing, from the user's standpoint, is customer satisfaction. Testing should be extensive and thorough if we want the client
+   and customer to be happy with the software product.
+3. Reliability: It is a matter of confidence that the software will not fail. In short, reliability means gaining the confidence of the 
+   customers by providing them with a quality product.
+4. Risk Management: Risk is the probability of occurrence of uncertain events in the organization and the potential loss that could 
+   result in negative consequences. Risk management must be done to reduce the failure of the product and to manage risk in different 
+   situations.
+
+3. Post-Implemented Goals
+Post-implementation goals focus on the software’s performance after deployment and improving testing processes for future perspective.
+
+Some of these are covered in detail below:
+
+1. Reduce Maintenance Cost: Post-released errors are costlier to fix and difficult to identify. Because effective software does not wear 
+   out, the maintenance cost of any software product is not the same as the physical cost. The failure of a software product due to 
+   faults is the only expense of maintenance. Because they are difficult to discover, post-release mistakes always cost more to rectify.
+   As a result, if testing is done thoroughly and effectively, the risk of failure is lowered, and maintenance costs are reduced as a 
+   result.
+2. Improved Software Testing Process: These goals improve the testing process for future use or software projects. These goals are known
+   as post-implementation goals. A project's testing procedure may not be completely successful, and there may be room for improvement. 
+   As a result, the bug history and post-implementation results can be evaluated to identify stumbling blocks in the current testing
+   process that can be avoided in future projects.
+
+Why Software Testing Needed?
+Software checking out serves as a critical approach for confirming whether or not a software program product aligns with the expected 
+requirements and ensuring it is free from defects.
+
+The primary objective of software checking out is to point out mistakes, inconsistencies, or unmet necessities compared to the desired 
+criteria. While software checking out does require a tremendous investment, it's vital to recognize that the consequences of software 
+failure can be far more costly.
+
+Conclusion
+Software testing is more than just finding bugs, it is a strategic process that ensures quality, reliability, and user satisfaction while
+minimizing risks and costs for the application. Testers play a important role, requiring not only technical expertise but also insight, 
+communication, and a commitment to quality.
+
+By addressing immediate, long-term, and post-implementation goals, testing delivers fast and reliable software that meets user needs.
+
+
+
